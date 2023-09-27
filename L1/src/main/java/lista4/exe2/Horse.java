@@ -21,11 +21,11 @@ public class Horse extends Animal {
 
     @Override
     public String toString() {
-        return "Horse{" + "competitor=" + competitor + super.toString()+'}';
+        return "Horse{" + " Is competitor? = " + competitor + " "+ super.toString()+'}';
     }
     @Override
     public String move(){
-    return "Trota";
+    return "Trota/Corre";
     }
     
 }

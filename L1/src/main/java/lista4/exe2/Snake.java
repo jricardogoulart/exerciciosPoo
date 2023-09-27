@@ -31,7 +31,7 @@ public class Snake extends Animal {
 
     @Override
     public String toString() {
-        return "Snake{" + "poisinous=" + poisinous + ", smoke=" + smoke + super.toString()+'}';
+        return "Snake{" + "Is poisinous? = " + poisinous + ", Is smoke? = " + smoke + " " + super.toString()+'}';
     }
     @Override
     public String move(){

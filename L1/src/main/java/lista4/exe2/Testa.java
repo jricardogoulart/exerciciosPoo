@@ -3,7 +3,7 @@ public class Testa {
     
     public static void mostra (Animal objeto){
         System.out.println(objeto.toString());
-        System.out.println(objeto.move());
+        System.out.println("O/A "+objeto.getName()+ " " + objeto.move()+"\n");
     }
     
     public static void main(String[] args) {

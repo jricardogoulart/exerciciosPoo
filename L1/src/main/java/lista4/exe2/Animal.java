@@ -30,7 +30,7 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" + "name=" + name + ", age=" + age + '}';
+        return "Animal{" + "name= " + name + ", age= " + age + '}';
     }
     
     public String move(){
